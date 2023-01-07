@@ -1,0 +1,100 @@
+.general-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 64px;
+}
+
+.right img {
+    width: 655px;
+    height: 521px;
+    padding-left: 30px;
+}
+
+.left {
+    margin-left: 3px;
+}
+
+.left h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+
+    color: #1F1F1F;
+    margin-bottom: 32px;
+}
+
+.left h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #515151;
+}
+
+
+button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    transition: all 0.5s;
+}
+
+button:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.general-container-button {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 60px;
+
+}
+
+.btn-green {
+    width: 192px;
+    height: 48px;
+    background: #018762;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-edge-green {
+    width: 192px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #018762;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+    color: #018762;
+
+}
+
+.div-green-Line {
+    display: flex;
+}
+
+.div-green-Line h2 {
+    margin-left: 24px;
+}
+
+.green-Line {
+    width: 10px;
+    height: 132px;
+    background: #018762;
+
+}
