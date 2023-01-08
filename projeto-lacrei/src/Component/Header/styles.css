@@ -5,6 +5,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #242425;
 }
 
 header h1 {

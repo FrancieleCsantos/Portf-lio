@@ -5,6 +5,7 @@
     min-width: 100%;
     min-height: 100%;
     padding: 64px;
+    background-color: #242425;
 }
 
 .right img {
@@ -65,7 +66,7 @@ button:hover {
 .btn-green {
     width: 192px;
     height: 48px;
-    background: #018762;
+    background-image: linear-gradient(180deg, #7d4159 0, #773959 12.5%, #6f3159 25%, #652859 37.5%, #591f59 50%, #4b185a 62.5%, #3a135b 75%, #24125d 87.5%, #00125f 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     cursor: pointer;
@@ -75,13 +76,12 @@ button:hover {
 .btn-edge-green {
     width: 192px;
     height: 48px;
-    background: #FFFFFF;
-    border: 2px solid #018762;
+    background-image: linear-gradient(180deg, #7d4159 0, #773959 12.5%, #6f3159 25%, #652859 37.5%, #591f59 50%, #4b185a 62.5%, #3a135b 75%, #24125d 87.5%, #00125f 100%);
+    border: 3px solid #280330;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     cursor: pointer;
-    color: #018762;
-
+    color: white;
 }
 
 .div-green-Line {

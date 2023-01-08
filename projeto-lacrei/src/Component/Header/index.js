@@ -15,8 +15,8 @@ function Header() {
                 <nav>
                     <ul>
                         <Link to='/' ><li>Home</li ></Link>
-                        <Link to='/people'><li>Pessoa Usuária</li></Link>
-                        <Link to='/professional'><li>Profissional</li></Link>
+                        <Link to='/people'><li>Sobre mim</li></Link>
+                        <Link to='/professional'><li>Projetos</li></Link>
                     </ul>
                 </nav>
 
