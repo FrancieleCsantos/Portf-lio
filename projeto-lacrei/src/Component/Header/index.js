@@ -10,7 +10,7 @@ function Header() {
 
 
         <header>
-            <h1>Lacrei</h1>
+
             <div className='optionsheader'>
                 <nav>
                     <ul>

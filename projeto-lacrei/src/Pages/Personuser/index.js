@@ -14,7 +14,7 @@ function Personuser() {
 
                     <div className='div-green-Line'>
                         <div className='green-Line'></div>
-                        <h2>A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento realizado por profissionais de qualidade e que atendam às suas necessidades de forma segura e acolhedora.</h2>
+                        <h2>Pagina em construção</h2>
                     </div>
 
                 </div>

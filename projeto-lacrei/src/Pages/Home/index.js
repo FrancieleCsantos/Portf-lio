@@ -1,5 +1,5 @@
 import './styles.css'
-import imgHome from '../../assets/img-home.svg'
+import imgFran from '../../assets/Fran.jpg'
 import Header from '../../Component/Header'
 import Footer from '../../Component/Footer'
 import { Link } from 'react-router-dom'
@@ -23,7 +23,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='right'>
-                    <img src={imgHome} alt='img-home' />
+                    <img src={imgFran} alt='img-home' />
                 </div>
 
             </div>
