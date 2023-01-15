@@ -11,7 +11,7 @@ header {
 header h1 {
     padding-left: 64px;
 
-    font-family: 'Nunito';
+    /* font-family: 'Nunito'; */
     font-style: normal;
     font-weight: 700;
     font-size: 32px;

@@ -1,7 +1,7 @@
 import './styles.css'
 import imgpeople from '../../assets/img-profissional.svg'
 import Header from '../../Component/Header';
-import Footer from '../../Component/Footer';
+
 
 function Profissional() {
 
@@ -22,7 +22,7 @@ function Profissional() {
                     <img src={imgpeople} alt='img-home' />
                 </div>
             </div>
-            <Footer />
+
         </>
     )
 

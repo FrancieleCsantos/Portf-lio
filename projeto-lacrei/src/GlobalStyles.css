@@ -5,14 +5,29 @@
     min-width: 100%;
     min-height: 100%;
     padding: 64px;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(50deg, rgba(0, 0, 0) 30%, rgba(88, 18, 93, 100) 80%);
+
 }
 
+.container-text {
+    width: 750px;
+    text-align: left;
+    background: rgb(34, 34, 34);
+    opacity: 0.8;
+}
+
+.container-text h2 {
+    color: white;
+    font-weight: 100px;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+
 .right img {
-    width: 655px;
-    height: 521px;
-    padding-left: 30px;
+    width: 400px;
+    height: 500px;
+    border-radius: 80%;
+    opacity: 0.8;
 }
 
 .left {
@@ -20,7 +35,7 @@
 }
 
 .left h1 {
-    font-family: 'Nunito';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -31,7 +46,7 @@
 }
 
 .left h2 {
-    font-family: 'Nunito';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -42,7 +57,7 @@
 
 
 button {
-    font-family: 'Nunito';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -52,33 +67,34 @@ button {
 }
 
 button:hover {
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(189, 20, 211, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(184, 17, 184, 0.5));
 }
 
 .general-container-button {
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
-    margin-top: 60px;
+    margin-top: 200px;
+    padding-right: 300px;
 
 }
 
 .btn-green {
     width: 192px;
     height: 48px;
-    background-image: linear-gradient(180deg, #7d4159 0, #773959 12.5%, #6f3159 25%, #652859 37.5%, #591f59 50%, #4b185a 62.5%, #3a135b 75%, #24125d 87.5%, #00125f 100%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(50, 4, 87, 0.25);
+    background-image: radial-gradient(circle at 50% -20.71%, #ff59ff 0, #e852ff 16.67%, #b248ff 33.33%, #783cf2 50%, #362fd0 66.67%, #0024b0 83.33%, #001b93 100%);
     border-radius: 8px;
     cursor: pointer;
     color: white;
+    border-color: #5c0a29;
 }
 
 .btn-edge-green {
     width: 192px;
     height: 48px;
-    background-image: linear-gradient(180deg, #7d4159 0, #773959 12.5%, #6f3159 25%, #652859 37.5%, #591f59 50%, #4b185a 62.5%, #3a135b 75%, #24125d 87.5%, #00125f 100%);
-    border: 3px solid #280330;
+    background-image: radial-gradient(circle at 50% -20.71%, #ff59ff 0, #e852ff 16.67%, #b248ff 33.33%, #783cf2 50%, #362fd0 66.67%, #0024b0 83.33%, #001b93 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     cursor: pointer;
@@ -95,7 +111,7 @@ button:hover {
 
 .green-Line {
     width: 10px;
-    height: 132px;
-    background: #018762;
+    height: 250px;
+    background: #700c79;
 
 }

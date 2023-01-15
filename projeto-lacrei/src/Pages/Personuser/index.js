@@ -1,7 +1,7 @@
 import './styles.css'
-import imgpeople from '../../assets/img-pessoa.svg'
+import imgpeople from '../../assets/Fran.1.jpg'
 import Header from '../../Component/Header';
-import Footer from '../../Component/Footer';
+
 
 function Personuser() {
 
@@ -10,11 +10,25 @@ function Personuser() {
             <Header />
             <div className='general-container'>
                 <div className='left'>
-                    <h1>Pessoa Usuária</h1>
+                    <h1>Sobre mim</h1>
 
                     <div className='div-green-Line'>
                         <div className='green-Line'></div>
-                        <h2>Pagina em construção</h2>
+                        <div className='container-text'>
+                            <h2>
+                                Formada em Gestão de Recursos Humanos, iniciei recentemente minha
+                                transição de carreira para a área da tecnologia, após uma experiência
+                                de 10 anos entre Atendimento ao Cliente,
+                                e a Monitoria de Qualidade da marca Itaucard e Chat Personnalité.
+                                <br />
+                                <br />
+                                <h2>
+                                    Tenho duas paixões: Customer experience e Desenvolvimento Front-End,
+                                    além de criar sites e aplicações, me preocupo em levar a melhor experiência
+                                    para o cliente/usuário. Quero transformar a minha vida e a de outras pessoas
+                                    por meio da tecnologia.</h2>
+                            </h2>
+                        </div>
                     </div>
 
                 </div>
@@ -22,7 +36,7 @@ function Personuser() {
                     <img src={imgpeople} alt='img-home' />
                 </div>
             </div>
-            <Footer />
+
         </>
     )
 
