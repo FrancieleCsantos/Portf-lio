@@ -7,7 +7,7 @@ import Linkd from '../../assets/LinkedinLogo.svg'
 function Footer() {
     return (
         <>
-            <div className='Line'></div>
+            <div className='Line'>i</div>
             <footer>
 
                 <div className='footer-navigation'>
